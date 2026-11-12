@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "VITE_BASE": "/"
+    }
+  },
+  "rewrites": [
+    { "source": "/((?!assets/|images/).*)", "destination": "/index.html" }
+  ]
+}
